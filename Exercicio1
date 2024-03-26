@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 1</title>
+</head>
+<body>
+    <h2>Exercicio 1</h2>
+    <hr />
+    <form action="" method="post" enctype="multipart/form-data">
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <label>Nome Completo:</label>
+            <input type="text" id="nome" name="nome"
+            placeholder="Ex: Zeca Nivete" required />
+            <label>E-mail:</label>
+            <input type="email" name="email" id="email" 
+            placeholder="Ex: zeca@disney.com" required />
+            <label>Senha:</label>
+            <input type="password" name="senha" id="senha" required/><br/>
+            <label>
+            <label>Sexo:</label>
+            <label>
+                <input type="radio" name="sexo" id="feminino" value="feminino">Feminino
+                </label>
+                <label>
+                    <input type="radio" name="sexo" value="masculino">Masculino
+                </label>
+            </fieldset>
+
+                <fieldset>
+                    <legend>Endereço</legend>   
+                    <label>CEP:</label>
+                    <input type="number"  name="CEP"
+                     placeholder="Ex: 11122-111" required />
+                    <label>Logradouro:</label>
+                    <input type="text" name="logradouro" id="logradouro"
+                    placeholder="Ex: Rua da subida inclinada" required />
+                    <label>Número:</label>
+                    <input type="number" name="numero"
+                    placeholder="Ex: 27" required /><br>
+                    <label>Complemento:</label>
+                    <input type="text" name="complemento"
+                    placeholder="Ex: Alameda das Aves" required />
+                </fieldset>
+
+                    
+                <fieldset>
+                    <legend>Dados Financeiros</legend>
+                    <label>Tipo:</label>
+                    <label>
+                         <input type="radio" name="tipo" value="nacional">Nacional
+                         </label>
+                         <label>
+                         <input type="radio" name="tipo" value="intbandeira">Internacional Bandeira
+                        </label>
+                        <select name="bandcartao" id="bandcartao">
+                            <option value="MC">MasterCard</option>
+                            <option value="VS">Visa</option>
+                            <option value="EO">Elo</option>
+                        </select>
+                    <label>Número do Cartão:</label>
+                    <input type="number" name="numcartao"
+                    placeholder="Ex: 111112222333344445555" required /></br>
+                    <label>Validade</label>
+                    <input type="month" name="mes" id="mes">
+                    <input type="submit" value="Enviar"/>
+                    <input type="reset" value="Limpar"/>
+                    
+
+    
+</body>
+</html>
