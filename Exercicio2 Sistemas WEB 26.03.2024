@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio2</title>
+</head>
+<body>
+    <h2>Exercicio 2</h2>
+    <hr />
+    <form action="" method="post" enctype="multipart/form-data">
+        <fieldset>
+            <legend>Formulário Cadastro de Automóveis:</legend>
+            <label>Tipo de Veículo:</label>
+            <label>
+                <input type="radio" name="tpveiculo" value="novo">Novo
+                </label>
+                <label>
+                    <input type="radio" name="tpveiculo" value="usado">Usado
+                    </label><br/>
+                <label>Categoria:</label>
+                    <select name="categ" id="categ">
+                        <option value="hatch">Hatch</option>
+                        <option value="suv">SUV</option>
+                        <option value="seda">Sedã</option>
+                        <option value="picape">Picape</option>
+                        <option value="utilitario">Utilitário</option>
+                        <option value="perua">Perua</option>
+                        <option value="minivan">MiniVan</option>
+                        <option value="conversivel">Conversível</option>
+                        <option value="outros">Outros</option>
+                    </select>
+                </label>
+                <label>Outros:</label>
+            <input type="text" id="outros" name="outros"
+            placeholder="Ex: Outra categoria que não esta na lista..." required /><br />
+            <label>Fabricante:</label>
+                    <select name="fabri" id="fabri">
+                        <option value="fiat">Fiat</option>
+                        <option value="ford">Ford</option>
+                        <option value="chevrolet">Chevrolet</option>
+                        <option value="volskwagen">Volskwagen</option>
+                        <option value="citroën">Citroën</option>
+                        <option value="renault">Renault</option>
+                        <option value="kia">Kia</option>
+                        <option value="outros">Outros</option>
+                    </select>
+                    </label>
+                    <label>Outros:</label>
+                 <input type="text" id="outros" name="outros"
+                  placeholder="Ex: Outro fabricante que não esta na lista..." required /><br />
+                  <label>Modelo:</label>
+                 <input type="text" id="modelo" name="modelo"><br/>
+                 <label>Quilometragem:</label>
+                 <input type="number" id="quilometragem" name="quilometragem"><br/>
+                 <label>Preço:</label>
+                 <input type="number" id="preco" name="preco"><br/>
+                 <label>Placa:</label>
+                 <input type="text" id="placa" name="placa"><br/>
+                 <label>Câmbio:</label>
+            <label>
+                <input type="radio" name="cambio" value="manual">Manual
+                </label>
+                <label>
+                    <input type="radio" name="cambio" value="automatico">Automático
+                    </label><br/>
+                    <label>Blindagem:</label>
+            <label>
+                <input type="radio" name="blindagem" value="sim">Sim
+                </label>
+                <label>
+                    <input type="radio" name="blindagem" value="nao">Não
+                    </label><br/>
+                    <label>Números de Portas:</label>
+                    <select name="numportas" id="numportas">
+                        <option value="2">2</option>
+                        <option value="4">4</option>
+                        <option value="6">6</option>
+                    </select><br/>
+                    <label>Combustível:</label>
+                    <select name="combu" id="combu">
+                        <option value="etanol">Etanol</option>
+                        <option value="gasolina">Gasolina</option>
+                        <option value="diesel">Diesel</option>
+                        <option value="flex">Flex</option>
+                        <option value="outros">Outros</option>
+                    </select>
+                    <label>Outros:</label>
+                 <input type="text" id="outros" name="outros"
+                  placeholder="Ex: Outro combustível que não esta na lista..." required /><br />
+                  <label>Foto:</label>
+            <input type="file" name="arquivo" id="arquivo" accept="jpg" /><br/>
+            <label>Descrições:</label><br/>
+            <textarea cols="40" rows="10" name="informacao" id="informacao"
+            maxlength="400" placeholder="Digite Aqui as descrições do veiculo..."></textarea><br/>
+            <input type="submit" value="Enviar"/>
+            <input type="reset" value="Limpar"/>
+            
+            </fieldset>
+    
+</body>
+</html>
