@@ -1,0 +1,317 @@
+Início(Page1) 
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recomendações de Músicas da BinBin</title>
+    <link rel="stylesheet" href="style/page1.css">
+    <link rel="icon" type="image/x-icon" href="img/guitarra.png">
+    <img class="imagem" src="img/playlist.png" alt="playlist">
+   
+
+</head>
+<body>
+    <header>
+        <h1>Recomendações de Músicas da BinBin</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="page2.html">Musicas</a></li>
+            <li><a href="page3.html">Artistas</a></li>
+            <li><a href="page4.html">Playlists</a></li>
+        </ul>
+    </nav>
+<main>
+    <p>Bem Vindos ao Meu Site Aonde eu Recomendo as Melhores Músicas, e<br>
+    Lembrando Que Este Trabalho foi Feito Baseado Nas Minhas Opiniões. 😘</p>
+</main>
+<footer>
+    <p>&copy; 2024 Recomendações de Músicas Da BinBin</p>
+</footer>
+    
+</body>
+</html>
+-----------------------------------------------------------------------------------
+
+Músicas(Page2)
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gêneros Músicais</title>
+    <link rel="stylesheet" href="style/page2.css">
+    <link rel="icon" type="image/x-icon" href="img/ouvido.png">
+    <img class="imagem" src="img/joia.png" alt="joia">
+
+</head>
+<body>
+    <header>
+        <h1>Músicas Recomendadas</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="page1.html">Início</a></li>
+            <li><a href="page3.html">Artistas</a></li>
+            <li><a href="page4.html">Playlists</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2> Tenho Certeza que Alguma Delas Você ja Escutou! </h2>
+        <ul>
+            <li>Surreal - Luísa Sonza, Bacu Exu do Blues</li>
+            <li>Se o Amor Tiver Lugar - Jorge e Mateus</li>
+            <li>A internet é Toxica - MC Saci</li>
+            <li>Problemas de um Milionário - WIU, Teto</li>
+            <li>FireWork - Katy Perry</li>
+        </ul>
+    </main>
+    <p>Como Vocês Podem Ver Aqui Temos Diversos Gêneros Diferentes<br>
+       Pois Temos que Estar Preparado Para Qualquer Tipo de Festa Que Esta Por Vir.</p>
+       <footer>
+        <p>&copy; 2024 Recomendações de Músicas Da BinBin</p>
+    </footer>   
+</body>
+</html>
+------------------------------------------------------------------------------------------------
+
+Artistas(Page3)
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artistas</title>
+    <link rel="stylesheet" href="style/page3.css">
+    <link rel="icon" type="image/x-icon" href="img/musicas.png">
+    <img class="imagem" src="img/artista.png" alt="artista">
+
+</head>
+<body>
+    <header>
+        <h1>Artistas</h1>
+    </header>
+    <nav>
+
+        <ul>
+            <li><a href="page1.html">Inicio</a></li>
+            <li><a href="page2.html">Gênero</a></li>
+            <li><a href="page4.html">Playlist</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Os Melhores Artistas que Você Vera na Vida! </h2>
+        <ul>
+            <li>MC IG</li>
+            <li>Ana Castela</li>
+            <li>WIU</li>
+            <li>Matheus & Kauan</li>
+            <li>MC PH</li>
+            <li>Luísa Sonza</li>
+            <li>Billie Elish</li>
+            <li>Veigh</li>
+            <li>Bacu Exu do Blues</li>
+            <li>Jão</li>
+        </ul>
+    </main>
+    <p>Essas São o Top 10 Artistas Que eu Mais Escuto no Meu Dia a Dia<br>
+       Desde Que eu Descobri o Que é Ser Feliz.<br></p>
+       <footer>
+        <p>&copy; 2024 Recomendações de Músicas Da BinBin</p>
+    </footer>
+        
+    
+</body>
+</html>
+---------------------------------------------------------------------------------------
+
+Playlists(Page4)
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playlist</title>
+    <link rel="stylesheet" href="style/page4.css">
+    <link rel="icon" type="image/x-icon" href="img/playlist.png">
+    <img class="imagem" src="img/aumenta.png" alt="aumenta">
+
+</head>
+<body>
+    <header>
+        <h1>Playlists</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="page1.html">Início</a></li>
+            <li><a href="page2.html">Gênero</a></li>
+            <li><a href="page3.html">Playlists</a></li>
+    </nav>
+    <main>
+        <h2>Playlists Recomendadas:</h2>
+        <ul>
+        <li><a href="https://open.spotify.com/playlist/0z0cy6hhuiW7UQ12cTJH0D?si=59d9353b0bd44447">Playlist Para Você se sentir Em um Filme</a></li>
+        <li><a href="https://open.spotify.com/playlist/0RnQEbt2CYMuswLmZGBgrT?si=7bcb405b93104ca5">Playlist Para Caso Você Queira Assaltar um Banco</a></li>
+        <li><a href="https://open.spotify.com/playlist/0ILnklOLw9qJ32niu1pzbP?si=fb2865a5fbea4578">Playlist Para você Sofrer Mesmo Não Tendo Motivos</a></li>
+        <li><a href="https://open.spotify.com/playlist/4BFBzeCrbnnKzXZKEaoHDw?si=52b8efcf371245a0">Playlist Para Você Se Sentir Em um Edit</a></li>
+        </ul>
+    </main>
+    <p>Aqui Estão Algumas Das Minhas Playlists, Espero Que Sejam Felizes</p>
+    <footer>
+        <p>&copy; 2024 Recomendações de Músicas Da BinBin</p>
+    </footer>
+</body>
+</html>
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+file Style
+  CSS(Page1)
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #cc66ff;
+}
+
+header {
+    background-color: #cc00cc;
+    color: white;
+    padding: 1rem;
+}
+
+main {
+    padding: 1rem;
+    color: black;
+}
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+.imagem {
+    width: 200px; 
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%); 
+}
+----------------------------------------------------------
+
+CSS(Page2)
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ff3333;
+}
+
+header {
+    background-color: #e60000;
+    color: white;
+    padding: 1rem;
+}
+
+main {
+    padding: 1rem;
+    color: black;
+}
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+.imagem {
+    width: 210px; 
+    position: absolute;
+    top: 52%; 
+    left: 50%;
+    transform: translate(-50%, -50%); 
+}
+--------------------------------------------------------
+
+CSS(Page3)
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FF69B4;
+}
+
+header {
+    background-color: #FF1493;
+    color: white;
+    padding: 1rem;
+}
+
+main {
+    padding: 1rem;
+    color: black;
+}
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+.imagem {
+    width: 210px; 
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%); 
+}
+-----------------------------------------------
+
+CSS(Page4)
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ccffdd;
+}
+
+header {
+    background-color: #b3ffcc;
+    color: white;
+    padding: 1rem;
+}
+
+main {
+    padding: 1rem;
+    color: black;
+}
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+.imagem {
+    width: 190px; 
+    position: absolute;
+    top: 48%; 
+    left: 50%;
+    transform: translate(-50%, -50%); 
+}
